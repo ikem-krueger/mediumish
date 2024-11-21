@@ -8,7 +8,7 @@
 <div class="container">
 	<!-- Begin Logo -->
 	<a class="navbar-brand" href="<?php echo $site->url(); ?>">
-	<img src="<?php echo Theme::src('img/logo.png'); ?>" alt="logo">
+	<img src="<?= $site->logo() ?>" alt="logo">
 	</a>
 	<!-- End Logo -->
 	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
